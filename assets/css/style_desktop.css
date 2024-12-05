@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
+}
+header.hero-section {
+    position: relative;
+    height: 90vh;
+    color: #fff;
+    background-image: url("../imagem/Site-Komgroup_01.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.brands-section {
+    position: relative;
+    padding: 50px 20px;
+    color: #fff;
+    text-align: center;
+    background-image: url("../imagem/Site-Komgroup_02.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-section {
+    position: relative;
+    padding: 50px 20px;
+    height: calc(1073 / 1920 * 100vw);
+    color: #233a51;
+    text-align: center;
+    background-image: url("../imagem/Site-Komgroup_03.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-background-section {
+    position: relative;
+    height: calc(586 / 1920 * 100vw);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 50px 20px;
+    padding-left: 250px;
+    color: #233a51;
+    text-align: left;
+    background-image: url("../imagem/Site-Komgroup_05.png");
+    background-size: cover;
+    background-position: center;
+}
+
+header.hero-section {
+    position: relative;
+    height: 90vh;
+    color: #fff;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: none;
+}
+
+nav {
+    position: relative;
+    top: 50px;
+    left: 250px;
+    margin-top: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Barlow", sans-serif;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #0066cc;
+}
+
+nav ul li img {
+    width: 20px;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 250px;
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.logo-img {
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.btn {
+    background: #fff;
+    color: #000;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.arrow-img {
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    background: #0066cc;
+    color: #fff;
+}
+
+.brands-section {
+    padding: 50px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.brands-section h2 {
+    font-size: 28px;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.brand {
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin: 70px;
+}
+
+.brand img {
+    width: 130px;
+}
+
+.brand h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.brand p {
+    font-size: 18px;
+}
+
+.about-section {
+    position: relative;
+    padding: 50px 20px;
+    height: calc(1073 / 1920 * 100vw);
+    color: #233a51;
+    text-align: center;
+}
+
+.about-section p {
+    font-size: 18px;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.about-image-container img {
+    max-width: 30%;
+    height: auto;
+}
+
+.news-section {
+    padding: 50px 20px;
+    color: #233a51;
+    text-align: center;
+}
+
+.news-section h2,
+.news-section p {
+    text-align: left;
+    margin-left: 0;
+    padding-left: 20px;
+    font-family: "Barlow", sans-serif;
+    color: #233a51;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.news-item-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.learn-more-container {
+    width: 100%;
+    max-width: 1200px;
+    text-align: right;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.learn-more {
+    color: #233a51;
+    font-family: "Barlow", sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.news-item {
+    background-color: #ffffff;
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.news-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+}
+
+.learn-more {
+    text-align: right;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 10px;
+    color: #233a51;
+    font-family: "Barlow", sans-serif;
+}
+
+.sessaocards {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    color: #233a51;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.sessaocards p {
+    margin-bottom: 50px;
+}
+
+.custom-background-section {
+    position: relative;
+    height: calc(586 / 1920 * 100vw);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 50px 20px;
+    padding-left: 250px;
+    color: #233a51;
+    text-align: left;
+}
+
+.custom-background-section h2 {
+    font-family: "Barlow", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #233a51;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: left;
+}
+
+.custom-background-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    border-radius: 10px;
+    color: #233a51;
+    text-align: justify;
+}
+
+.custom-background-section .btn {
+    margin-top: 20px;
+    background: #fff;
+    color: #000;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+
+.section-share-page {
+    background-color: #007bff;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.section-share-page p {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.section-share-page .social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.section-contact {
+    background-color: #233a51;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.section-contact h2 {
+    font-size: 24px;
+    color: white;
+    font-family: "Barlow", sans-serif;
+    margin-bottom: 15px;
+}
+
+.section-contact p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+    font-family: "Barlow", sans-serif;
+}
+
+.section-contact .contact-button {
+    background: #fff;
+    color: #000;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 30px;
+    transition: background 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.section-contact .contact-button:hover {
+    background: #0066cc;
+    color: #fff;
+}
+
+.social-icons img.social-icon {
+    width: 24px;
+    height: auto;
+    margin: 0 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

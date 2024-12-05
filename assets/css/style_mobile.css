@@ -1,0 +1,187 @@
+@media (max-width: 800px) {
+    html,
+    body {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        background-color: white;
+    }
+
+    .hero-section {
+        height: 500px !important;
+    }
+
+    .hero-content {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .hero-section img {
+        margin-top: 150px;
+    }
+
+    .top-space {
+        height: 30px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hero-content {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .about-text {
+        display: none;
+    }
+
+    .logo-img {
+        width: 80%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .brands p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .brands-section,
+    .sessaocards,
+    .custom-background-section,
+    .section-share-page,
+    .section-contact {
+        width: 100%;
+        padding: 20px 10px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .sessaocards h2,
+    .sessaocards p {
+        margin-bottom: 10px;
+    }
+
+    .news-row {
+        margin-top: 10px;
+    }
+
+    .brands-section h2 {
+        display: none;
+    }
+
+    .about-section {
+        background-image: url("../imagem/Site-Komgroup_03.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 300px;
+    }
+
+    .custom-background-section {
+        background-image: url("../imagem/Site-Komgroup_05.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        min-height: 200px;
+    }
+
+    .news-item {
+        width: 90%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        margin: 10px auto;
+        overflow: hidden;
+    }
+
+    .news-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .about-image-container img {
+        max-width: 80%;
+    }
+
+    .about-section p {
+        max-width: 90%;
+        padding: 0;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 20px 0;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .brand,
+    .news-item {
+        width: 100%;
+        max-width: 90%;
+        margin: 10px auto;
+    }
+
+    .section-share-page p,
+    .section-contact h2,
+    .section-contact p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .section-share-page .social-icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .section-share-page .social-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .custom-background-section h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .custom-background-section p {
+        display: none;
+    }
+
+    .custom-background-section .btn {
+        display: block;
+        font-size: 14px;
+        padding: 8px 20px;
+        margin: 10px auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .contact-button {
+        font-size: 14px; /* Reduz o tamanho da fonte */
+        padding: 8px 20px; /* Diminui o padding */
+        border-radius: 30px; /* Ajusta o arredondamento, se necessário */
+    }
+
+    .contact-button img {
+        width: 15px; /* Diminui o tamanho da imagem da seta */
+        margin-left: 5px; /* Ajusta o espaçamento, se necessário */
+    }
+}
